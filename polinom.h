@@ -36,7 +36,7 @@ public:
 	friend Polinom* read_n(std::istream&, int);
 
 	friend void show_n(std::ostream&, Polinom*, int);
-//private:
+private:
 	double * coef;
 	int grad;
 };
